@@ -14,4 +14,4 @@ Todos.TodosController = Ember.ArrayController.extend({
       todo.save();
     }
   }
-})
+});
