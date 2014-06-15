@@ -3,6 +3,10 @@ Todos.Todo = DS.Model.extend({
   isCompleted: DS.attr('boolean')
 });
 
+
+// Fixtures used until local persistent storage was implemented
+// ( application.js )
+
 Todos.Todo.FIXTURES = [
   {
     id: 1,
